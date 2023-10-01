@@ -1,0 +1,48 @@
+/* Add Bootstrap classes for styling */
+.calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #eee0e0;
+    border: 5px solid #928f8f;
+    border-radius: 14px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(62, 59, 59, 0.2);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 16px;
+    margin: 6cap;
+    background-color: hwb(0 90% 7%);
+    border: 3px solid #8d8c8c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.equals-button {
+    width: 100%; /* Set the desired width, in this case, 100% */
+    background-color: hsl(205, 100%, 50%); /* Change to your desired background color */
+    color: #fff; /* Text color */
+    font-size: 18px; /* Font size */
+    border: none; /* Remove borders */
+    border-radius: 18px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+    width:200%;
+}
+
+.equals-button:hover {
+    background-color: hsl(216, 12%, 8%); /* Change to your desired hover background color */
+}
+
+/* Style for the display/input field */
+#display {
+    font-size: 32px;
+    text-align: right;
+    margin-bottom: 90px solid #8d2c2c;
+}
